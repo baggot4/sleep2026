@@ -304,13 +304,6 @@ PAGE = r"""<!DOCTYPE html>
 
   <main class="wrap">
 
-    <section class="card">
-      <div class="eyebrow">Summary</div>
-      <h2>What we found</h2>
-      <p class="lead">{{TLDR}}</p>
-      <div class="result">{{RESULT}}</div>
-    </section>
-
     <section class="card" id="contact">
       <div class="eyebrow">Contact</div>
       <p class="contact-meta">
