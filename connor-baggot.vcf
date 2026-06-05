@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Baggot;Connor;;;
+FN:Connor Baggot
+ORG:University of Iowa;College of Liberal Arts & Sciences
+TITLE:Undergraduate Researcher
+EMAIL;TYPE=INTERNET,PREF:connor-baggot@uiowa.edu
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/connor-baggot/
+URL:https://baggot4.github.io/sleep2026/
+NOTE:SLEEP 2026 (Baltimore) - DLMO & Functional Connectivity in Later-Life Adults.
+END:VCARD
