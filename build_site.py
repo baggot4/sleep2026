@@ -38,27 +38,27 @@ REF_FILE = os.path.join(os.path.dirname(HERE), "Poster References.md")
 NAME = "Connor Baggot"
 EMAIL = "connor-baggot@uiowa.edu"
 LINKEDIN = "https://www.linkedin.com/in/connor-baggot/"
-AFFIL = "University of Iowa, College of Liberal Arts & Sciences"
+AFFIL = "College of Liberal Arts & Sciences, University of Iowa"
 ROLE = "Undergraduate Researcher"
 
-TITLE = "Dim Light Melatonin Onset (DLMO) and Functional Connectivity in Later-Life Adults"
+TITLE = "Associations Between Dim Light Melatonin Onset and Salience Network Functional Connectivity in Later-Life Adults"
 
-# NOTE: author / affiliation / acknowledgment text mirrors the corrected poster
-# (`DLMO_FC Poster SLEEP2026 v2.pptx`). Update these strings if the poster changes.
+# NOTE: title / author / affiliation text mirrors the current poster
+# (`DLMO_FC Poster SLEEP2026.pptx`, 2026-06-06). Update these strings if the poster changes.
 AUTHORS_HTML = (
-    '<strong>Connor Baggot, BS Candidate</strong><sup>1</sup> &middot; '
-    "Meina Zhang, PhD, RN<sup>2,3</sup> &middot; "
-    "Karin Hoth, PhD<sup>4</sup> &middot; "
-    "Navya Spurthi Thatikonda, MD, PhD<sup>4</sup> &middot; "
-    "Eric Axelson, MS<sup>4</sup> &middot; "
+    '<strong>Connor Baggot</strong><sup>1</sup> &middot; '
+    "Meina Zhang, PhD, RN<sup>2</sup> &middot; "
+    "Karin Hoth, PhD<sup>3</sup> &middot; "
+    "Navya Spurthi Thatikonda, MD, PhD<sup>3</sup> &middot; "
+    "Eric Axelson, MS<sup>3</sup> &middot; "
     "Vincent Magnotta, PhD<sup>4</sup> &middot; "
     "Chooza Moon, PhD, RN<sup>2</sup>"
 )
 AFFILS_HTML = (
-    "<sup>1</sup> University of Iowa College of Liberal Arts &amp; Sciences &nbsp;&middot;&nbsp; "
+    "<sup>1</sup> College of Liberal Arts &amp; Sciences, University of Iowa &nbsp;&middot;&nbsp; "
     "<sup>2</sup> College of Nursing, University of Iowa &nbsp;&middot;&nbsp; "
-    "<sup>3</sup> UTHealth Houston School of Public Health &nbsp;&middot;&nbsp; "
-    "<sup>4</sup> Carver College of Medicine, University of Iowa"
+    "<sup>3</sup> Carver College of Medicine, Department of Psychiatry, University of Iowa &nbsp;&middot;&nbsp; "
+    "<sup>4</sup> Carver College of Medicine, Department of Radiology, University of Iowa"
 )
 
 TLDR = (
@@ -150,7 +150,7 @@ VCARD = (
     f"EMAIL;TYPE=INTERNET,PREF:{EMAIL}\r\n"
     f"URL;TYPE=LinkedIn:{LINKEDIN}\r\n"
     f"URL:{SITE_URL}\r\n"
-    "NOTE:SLEEP 2026 (Baltimore) - DLMO & Functional Connectivity in Later-Life Adults.\r\n"
+    "NOTE:SLEEP 2026 (Baltimore) - DLMO & Salience Network Functional Connectivity in Later-Life Adults.\r\n"
     "END:VCARD\r\n"
 )
 
@@ -179,7 +179,7 @@ PAGE = r"""<!DOCTYPE html>
 <title>Connor Baggot &middot; DLMO &amp; Functional Connectivity &middot; SLEEP 2026</title>
 <meta name="description" content="Poster references and contact for Dim Light Melatonin Onset (DLMO) and resting-state functional connectivity in later-life adults. SLEEP 2026, Connor Baggot, University of Iowa.">
 <meta name="theme-color" content="#0f1430">
-<meta property="og:title" content="DLMO &amp; Functional Connectivity in Later-Life Adults">
+<meta property="og:title" content="Associations Between DLMO and Salience Network Functional Connectivity in Later-Life Adults">
 <meta property="og:description" content="SLEEP 2026 poster &mdash; references and contact. Connor Baggot, University of Iowa.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{SITE_URL}}">
