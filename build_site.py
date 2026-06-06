@@ -80,17 +80,18 @@ RESULT = (
     "(age/sex-adjusted r = 0.40, p = 0.004; FDR q = 0.04; n = 50)."
 )
 
-# Acknowledgments & Disclosures — from `v2` poster.
+# Acknowledgments — verbatim from the current poster (`DLMO_FC Poster SLEEP2026.pptx`,
+# 2026-06-06). NB the poster itself reads "NIH/ACTS"; the correct funder is NIH/NCATS
+# (KL2TR002536 is an NCATS award) — mirrored as-is here per request.
 FUNDING = (
-    "C.B. was supported by the University of Iowa Undergraduate Research Fellowship and the "
-    "Barbara &amp; Richard Csomay Center for Gerontological Excellence (PI: Zhang). This work was "
-    "supported by the University of Iowa Institute for Clinical and Translational Science "
-    "(NIH/NCATS KL2TR002536; PI: Bassuk; Scholar: Moon), the University of Iowa Center for "
-    "Advancing Multimorbidity Science (NIH/NINR P20 NR018081; MPI: Gardner &amp; Rakel; "
-    "Pilot PI: Moon), and the Alzheimer&rsquo;s Association (AARG-19-618403; PI: Moon). MRI "
-    "instrumentation: NIH 1S10&nbsp;OD025025-01. Contents are solely the authors&rsquo; "
-    "responsibility and do not necessarily represent the official views of the NIH (NCATS, NINR) "
-    "or the Alzheimer&rsquo;s Association. The authors report no conflicts of interest."
+    "The first author (Baggot) was supported by the University of Iowa Undergraduate Research "
+    "Fellowship and University of Iowa Csomay Center (PI: Zhang). This work was supported by "
+    "University of Iowa Csomay Center (PI: Moon), the University of Iowa Institute for Clinical "
+    "and Translational Science (NIH/ACTS KL2TR002536, PI: Bassuk, Scholar: Moon), and the "
+    "Alzheimer&rsquo;s Association (AARG-19-618403, PI: Moon). This work was conducted on an MRI "
+    "instrument funded by 1S10OD025025-01. Contents are solely the responsibility of the authors "
+    "and do not necessarily represent the official views of the University of Iowa, NIH/ACTS, or "
+    "Alzheimer&rsquo;s Association."
 )
 
 
@@ -336,7 +337,7 @@ PAGE = r"""<!DOCTYPE html>
     </section>
 
     <section class="card">
-      <div class="eyebrow">Acknowledgments &amp; Disclosures</div>
+      <div class="eyebrow">Acknowledgments</div>
       <p class="funding">{{FUNDING}}</p>
     </section>
 
